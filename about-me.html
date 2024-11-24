@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Photo Enhancer</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: linear-gradient(45deg, #007bff, #6a11cb);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            flex-wrap: wrap;
+        }
+
+        .navbar .logo {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .navbar .menu {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            text-align: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 5px 15px;
+            padding: 8px 15px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .main-content p {
+            line-height: 1.8;
+            font-size: 1rem;
+            text-align: justify;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .navbar .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar a {
+                margin: 10px 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            .main-content {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            .main-content h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">Photo Enhancer</div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about-me">About Me</a>
+            <a href="contact-us.html">Contact</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <h1>About Me</h1>
+        <p>
+            Hello! My name is <strong>Tejas Waghmare</strong>, and I am a student from Pune, India. Currently, I am in the 11th standard, pursuing science with a focus on Physics, Chemistry, Mathematics (PCM), and Information Technology.
+        </p>
+        <p>
+            I created <strong>Photo Enhancer</strong> because I had an idea for a tool that could make photo enhancement simple and accessible. While I know there are many similar tools available, I wanted to execute my own vision and learn through the process of building something from scratch.
+        </p>
+        <p>
+            As a student passionate about programming, I see every project as an opportunity to grow and apply my knowledge. This is just one of many projects I plan to develop as I continue learning new technologies and programming concepts.
+        </p>
+        <p>
+            Thank you for visiting my website! I hope you enjoy using Photo Enhancer as much as I enjoyed creating it.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Photo Enhancer | <a href="index.html">Return to Home</a></p>
+    </footer>
+</body>
+</html>
